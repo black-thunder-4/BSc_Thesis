@@ -1,2 +1,0 @@
-# Thesis
- ProteinSnake BSc Thesis

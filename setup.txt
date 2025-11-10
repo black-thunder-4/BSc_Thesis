@@ -1,0 +1,6 @@
+pip install numpy torch torch-geometric biopython py3Dmol tqdm fair-esm
+apt-get update && apt-get install -y aria2
+aria2c --check-certificate=false -x16 -s16 -k1M https://scop.berkeley.edu/downloads/pdbstyle/pdbstyle-sel-gs-bib-95-2.08.tgz
+tar -xvzf pdbstyle-sel-gs-bib-95-2.08.tgz
+
+pip install rootutils rich hydra-colorlog colorlog einops torchdiffeq lightning hydra-core wandb torch-geometric packaging ninja wheel setuptools setuptools-scm flash-attn ase biopython py3Dmol tqdm fair-esm
